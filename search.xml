@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2020/01/20/hello-world/"/>
+      <url>/2020/01/20/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>博客搭建</title>
+      <link href="/2020/01/18/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+      <url>/2020/01/18/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</url>
+      
+        <content type="html"><![CDATA[<h1 id="1-为什么使用hexo-GitHub的方式建设个人博客"><a href="#1-为什么使用hexo-GitHub的方式建设个人博客" class="headerlink" title="1.为什么使用hexo+GitHub的方式建设个人博客"></a>1.为什么使用hexo+GitHub的方式建设个人博客</h1><p> 通俗的讲就是穷，买不起服务器。hexo+GitHub的方式可以在不使用服务器的情况下可以免费建站。</p><h2 id="2-博客搭建的准备工作"><a href="#2-博客搭建的准备工作" class="headerlink" title="2. 博客搭建的准备工作"></a>2. 博客搭建的准备工作</h2><h3 id="2-1-准备git，node-js的安装，GitHub账号"><a href="#2-1-准备git，node-js的安装，GitHub账号" class="headerlink" title="2.1 准备git，node.js的安装，GitHub账号"></a>2.1 准备git，node.js的安装，GitHub账号</h3><h3 id="Git下载-node-js下载-GitHub注册"><a href="#Git下载-node-js下载-GitHub注册" class="headerlink" title="Git下载  || node.js下载  || GitHub注册"></a><a href="https://git-scm.com/downloads" target="_blank" rel="noopener">Git下载</a>  || <a href="https://nodejs.org/zh-cn/" target="_blank" rel="noopener">node.js下载</a>  || <a href="https://github.com/join?source=header-home" target="_blank" rel="noopener">GitHub注册</a></h3><h2 id="3-开始我们的正题"><a href="#3-开始我们的正题" class="headerlink" title="3.开始我们的正题"></a>3.开始我们的正题</h2><h3 id="3-1-下载hexo"><a href="#3-1-下载hexo" class="headerlink" title="3.1 下载hexo"></a>3.1 下载hexo</h3><p> 顺便创建一个博客使用的本地文件夹，在文件夹里面右键选择 git bash 。<br>安装和开始制作blog</p><pre><code>npm install hexo-cli -g hexo init </code></pre><p>启动本地博客</p><pre><code>hexo g`</code></pre><p>hexo s</p><p>点击    <a href="http://127.0.0.1:4000" target="_blank" rel="noopener">localhost:4000</a> 有内容就是成功了。</p><h3 id="3-2-下载hexo的主题"><a href="#3-2-下载hexo的主题" class="headerlink" title="3.2 下载hexo的主题"></a>3.2 下载hexo的主题</h3><p>比如下载concise主题</p><pre><code>git clone &lt;https://github.com/HmyBmny/hexo-theme-concise.git&gt; themes/concise `</code></pre><p>修改_config.yml中的theme <em>冒号</em>后面空格</p><pre><code>`theme: concise`</code></pre><h2 id="4-使用hexo与GitHub连接"><a href="#4-使用hexo与GitHub连接" class="headerlink" title="4.使用hexo与GitHub连接"></a>4.使用hexo与GitHub连接</h2><h3 id="4-1创建github项目"><a href="#4-1创建github项目" class="headerlink" title="4.1创建github项目"></a>4.1创建github项目</h3><h3 id="4-2配置ssh-key密钥"><a href="#4-2配置ssh-key密钥" class="headerlink" title="4.2配置ssh_key密钥"></a>4.2配置ssh_key密钥</h3><p>要使用 git 工具首先要配置一下SSH key，为部署本地博客到 Github 做准备。</p><p>打开命令行输入 cd ~/.ssh 如果没报错或者提示什么的说明就是以前生成过的，直接使用 cat ~/.ssh/id_rsa.pub 命令就是可以查看本机上的 SSH key 了。</p><pre><code>cat ~/.ssh/id_rsa.pub</code></pre><p>如果之前没有创建过使用下面命令创建</p><pre><code>git config --global user.name &quot;用户名&quot;git config --global user.email &quot;邮箱地址&quot;</code></pre><p>开始生成密钥</p><pre><code>ssh-keygen -t rsa -C &apos;上面的邮箱&apos;`</code></pre><p>首次使用还需要确认并添加主机到本机SSH可信列表。若返回 Hi xxx! You’ve successfully authenticated, but GitHub does not provide shell access. 内容，则证明添加成功。</p><pre><code>ssh -T git@github.com `</code></pre><p>登录GitHub，找到settings。有个 SSH and GPG keys标题。创建新的密钥。名字随便起，内容CTRL+C即可。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
